@@ -1,4 +1,4 @@
-# voyage-project-tier2-dinosaurs
+# voyage-project-tier3-dinosaurs
 
 ## Table of Contents
 
@@ -74,9 +74,11 @@ implement to enhance this app, if time permits.
 
 #### Structure
 
-- [ ] This is a purely frontend application. No backend is required. 
+- [ ] This is a full-stack application. Frontend and backend are required. 
+- [ ] Integrate user authentication (sign up and sign in) with database system.
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
 - [ ] Utilize the provided Dinosaur's API to display data.
+- [ ] Consume a second API that's related to Dinosaur (News API).
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [National History Museum](https://www.nhm.ac.uk/discover/dinosaurs.html)
@@ -93,11 +95,12 @@ implement to enhance this app, if time permits.
 #### Functionality
 
 -   Overview:
-    - [ ] A single-page application (SPA) or it's equivalent design to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
+    - [ ] A full-stack application to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
 
 - Dinosaur Display
     - [ ] Display dinosaurs' name, weight, length, country, diet and corresponding images sourced from the provided API data.
     - [ ] Each dinosaur entry should be clickable to view full details.
+    - [ ] Display a random fact about Dinosaur to the user upon every login.
 
 - Search Component
     - [ ] Implement a search feature allowing users to search for dinosaurs by name, weight, length, country and diet.
@@ -126,15 +129,22 @@ implement to enhance this app, if time permits.
         - taxonomy
         - namedBy
 
+- Dinosaur news and discoveries
+    - [ ] Consume a second API that's related to dinosaur (News API).
+    - [ ] Display news about recent dinosaur discoveries.
+
 - Responsiveness
     - [ ] Ensure the web application is responsive and accessible across various devices and screen sizes.
     - [ ] Utilize responsive design techniques to adapt to different viewport sizes.
     
 ### Extras (Not Required)
-- Display news about recent dinosaur discovery
-    - [ ] Consume a second API that's related to Dinosaur
+- User profile page
+    - [ ] Track user search history.
 
 ## Acceptance Criteria
+- User authentication
+    - [ ] Users should be able to sign up and sign in.
+     
 - Search Functionality
     - [ ] Users should be able to search for dinosaurs by name, weight, length, country and diet.
     - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name, weight, length, country and diet.
@@ -149,6 +159,9 @@ implement to enhance this app, if time permits.
     - [ ] Upon clicking a dinosaur entry, users must be able to view full details of the selected dinosaur.
     - [ ] Dinosaur details should include notable characteristics sourced from the API data.
     - [ ] The details view should be accessible and provide comprehensive information about the selected dinosaur.
+
+- [ ] Dinosaur news and discovery
+    - [ ] Users should be able to find and read the latest news and discoveries about dinosaurs.
 
 ## Acknowledgements
 
